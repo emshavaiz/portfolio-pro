@@ -1,4 +1,5 @@
-@import url( 'https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Poppins:wght@300;400&family=Roboto:wght@300;500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,7 +13,6 @@ header {
 
 main {
   width: 100%;
-  height: 100vh;
 }
 
 nav {
@@ -20,7 +20,7 @@ nav {
   justify-content: space-between;
   width: 100%;
   height: 28%;
-  padding: 2% 5% 2% 5%;
+  padding: 4% 5%;
   align-items: center;
   color: white;
 }
@@ -30,48 +30,49 @@ nav p {
   font-weight: 600;
 }
 
-.intro-section {
+.name-job {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  background-image: url(image/img.png);
+  background-image: url(image/illustration.png);
   background-repeat: no-repeat;
   background-color: black;
   background-position: right bottom;
-  gap: 10%;
-  padding: 34% 6%  48% 6%;
+  gap: 7px;
+  padding: 28% 6% 48% 6%;
 }
 
-.intro-section h1 {
+.name-job h1 {
   width: 81%;
   height: 30%;
   color: #ff6b00;
   text-align: start;
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: 'Crete Round';
-  font-size: 301%;
+  font-size: 271%;
   font-style: normal;
   line-height: 115%;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.37px;
 }
 
-.intro-section h3 {
+.name-job h3 {
   font-family: sans-serif;
   color: #fff5e1;
   padding: 3% 0%;
 }
 
-.primary-text {
-  font-size: 100%;
+.description1 {
+  color: #fff;
+  font-size: 96%;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 140%;
-  width: 86%;
-  color: #fff;
+  width: 99%;
+  
 }
 
-.social-link {
+.social-media {
   margin-top: 2%;
   display: flex;
   align-items: flex-start;
